@@ -30,15 +30,13 @@ public class MongoClass {
 			
 			notaDeCreditoVentas ncv = new notaDeCreditoVentas ("12/02/2020",1,"das","dasdasd",2);
 			
-			
 			objeto.put("fechaNotaDeCreditoVentas",ncv.getFechaNotaDeCreditoVentas());
 			objeto.put("idDocumentoDeVentasVentas",ncv.getIdDocumentoDeVentasVentas());
 			objeto.put("responsableNotaDeCreditoVentas",ncv.getResponsableNotaDeCreditoVentas());
 			objeto.put("observacionesNotaDeCreditoVentas",ncv.getObservacionesNotaDeCreditoVentas());
 			objeto.put("tipoNotaDeCreditoVentas",ncv.getTipoNotaDeCreditoVentas());			
 			coleccion.insert(objeto);
-			
-			
+
 			/*
 			
 			
