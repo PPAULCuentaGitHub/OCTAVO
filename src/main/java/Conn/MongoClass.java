@@ -28,7 +28,7 @@ public class MongoClass {
 			DBCollection coleccion= db.getCollection("notaDeCreditoVentas");
 			BasicDBObject objeto= new BasicDBObject();
 			
-			notaDeCreditoVentas ncv = new notaDeCreditoVentas ();
+			notaDeCreditoVentas ncv = new notaDeCreditoVentas ("12/02/2020",1,"das","dasdasd",2);
 			
 			
 			objeto.put("fechaNotaDeCreditoVentas",ncv.getFechaNotaDeCreditoVentas());
