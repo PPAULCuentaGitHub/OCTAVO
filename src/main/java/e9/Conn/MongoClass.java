@@ -1,4 +1,4 @@
-package Conn;
+package e9.Conn;
 
 import com.mongodb.MongoClient;
 import com.mongodb.DBCollection;

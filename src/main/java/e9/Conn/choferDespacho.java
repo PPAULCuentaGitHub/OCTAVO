@@ -1,4 +1,4 @@
-package Conn;
+package e9.Conn;
 
 public class choferDespacho {
 	
@@ -28,8 +28,4 @@ public class choferDespacho {
 	public void setPlacaChoferDespacho(String placaChoferDespacho) {
 		this.placaChoferDespacho = placaChoferDespacho;
 	}
-    
-    
-    
-
 }
